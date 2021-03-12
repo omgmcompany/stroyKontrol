@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap");
+/* font-family: 'Inter', sans-serif; */
+.section-1 header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+}
+.section1__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo p {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  font-size: 18px;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  object-fit: contain;
+  margin-right: 15px;
+}
+.menu__items a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #72787d;
+  float: left;
+  font-size: 20px;
+  margin-left: 14px;
+}
+.menu {
+}
+.menu li {
+  list-style: none;
+}
+.menu__items {
+}
+.menu__items a:hover {
+  color: #036fc7;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+.menu__items ul {
+  display: flex;
+}
+a.order__btn {
+  text-decoration: none;
+  background-color: #212b31;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+}
+a {
+  font-family: "Inter", sans-serif;
+}
+a.order__btn:hover {
+  background-color: #3c87b4;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+.header__btn {
+}
+.title {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 110px;
+  line-height: 46px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.order__btn {
+  font-family: "Inter", sans-serif;
+}
+.sub__order_btn {
+  font-family: "Inter", sans-serif;
+}
+.sub__extensive_btn {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.sub__btns {
+  text-align: center;
+  margin-top: 54px;
+}
+.sub__extensive_btn:hover {
+  background-color: #949eff;
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+.building__img {
+}
+.building-cars {
+}
+.description__block {
+  margin-top: 69px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.description__item {
+  float: left;
+}
+.description__body {
+  text-align: center;
+}
+.description__title {
+  font-family: "Inter", sans-serif;
+  margin: -15px 0px 0px 0px;
+  font-size: 26px;
+}
+.description__subtitle {
+  font-family: "Inter", sans-serif;
+  margin-top: -15px;
+  font-size: 15px;
+}
+.building {
+  margin-top: 6.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.building__body {
+}
+.building__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 38px;
+  color: #212b31;
+}
+h5.building__subtitle {
+  font-family: "Inter";
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.building__1 {
+}
+.building__2 {
+}
+.building__title_1 {
+  font-family: "Inter";
+  font-weight: 500;
+  margin: 111px 0px 0px 0px;
+  font-size: 31px;
+  text-align: center;
+  color: #212b31;
+}
+.building__title_2 {
+  font-family: "Inter";
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+  color: #212b31;
+}
+.building__subtitle_1 {
+}
+.building__subtitle_2 p {
+  background-color: #ffd042;
+  box-shadow: 0 0 10px rgba(255, 208, 66, 100%); /* Параметры тени */
+  position: absolute;
+}
+
+.building__img_2 {
+}
+.content__2 {
+  font-family: "Inter";
+  color: #212b31;
+}
+.sponsors {
+  display: flex;
+  justify-content: center;
+  width: 994px;
+  cursor: pointer;
+}
+.cart-slider {
+  background-color: #cba4de;
+}
+.swiper-container {
+  margin: 16% 0px 0px 120px;
+  position: absolute;
+  max-height: 500px;
+  width: 578px;
+}
+.cart-wrapper {
+}
+.swiper-wrapper {
+}
+.cart-slide {
+}
+.swiper-slide {
+}
+.text-img {
+  position: absolute;
+  margin: 1% 1px 0px 5px;
+}
+.slider__maintext {
+  font-size: 35px;
+  margin: 55px auto;
+  width: 550px;
+}
+.worker {
+  margin-left: 56px;
+}
+.worker__name {
+  margin: -18px 0px 0px 60px;
+}
+.worker__name span {
+  font-size: 19px;
+  font-weight: 700;
+  position: absolute;
+  margin: -32px 0px 0px 0px;
+}
+.cart-bg {
+  background-color: #bddeef;
+}
+div.scrollup {
+  position: fixed; /* фиксированная позиция */
+  color: #fff; /* цвет текста */
+  background-color: #286090; /* цвет заднего фона */
+  right: 20px; /* расстояние от правого края */
+  bottom: 0px; /* расстояние от нижнего края */
+  padding: 4px 10px; /* отступы до содержимого блока */
+  font-size: 20px; /* размер шрифта (иконки) */
+  border-top-left-radius: 4px; /* скругление верхнего левого угла */
+  border-top-right-radius: 4px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+}
+div.scrollup:hover {
+  background-color: #000; /* цвет заднего фона при наведении */
+}
